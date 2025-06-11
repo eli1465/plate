@@ -24,9 +24,9 @@ def check_plate():
     plate = plate_generator(p1, p2, p3, p4)
 
     if plate_validator(plate):
-        result_label.config(text="✅ پلاک ثبت شد", fg="green")
+        result_label.config(text=" پلاک ثبت شد", fg="green")
     else:
-        result_label.config(text="❌ پلاک مجاز نیست", fg="red")
+        result_label.config(text=" پلاک مجاز نیست", fg="red")
 
 
 # ایجاد پنجره
